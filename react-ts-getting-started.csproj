@@ -67,6 +67,7 @@
     <Content Include="gulpfile.js" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
+    <Content Include="typings.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
