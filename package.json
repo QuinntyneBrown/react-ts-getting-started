@@ -1,34 +1,29 @@
 {
   "name": "react-ts-getting-started",
-  "version": "0.0.1",
-  "description": "Getting started with React, React Router, Flux and TypeScript",
+  "version": "1.0.0",
+  "description": "React using TypeScript and Visual Studio",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QuinntyneBrown/react-ts-getting-started.git"
   },
-  "author": "Quinntyne Brown",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/QuinntyneBrown/react-ts-getting-started/issues"
   },
-    "homepage": "https://github.com/QuinntyneBrown/react-ts-getting-started#readme",
-    "dependencies": {
-        "bootstrap": "^3.3.5",
-        "browserify": "^11.0.1",
-        "flux": "^2.0.3",
-        "gulp": "^3.9.0",
-        "gulp-concat": "^2.6.0",
-        "gulp-connect": "^2.2.0",
-        "gulp-eslint": "^0.15.0",
-        "gulp-open": "^1.0.0",
-        "jquery": "^2.1.4",
-        "react": "^0.13.3",
-        "react-router": "^0.13.3",
-        "reactify": "^1.1.1",
-        "vinyl-source-stream": "^1.1.0"
+  "homepage": "https://github.com/QuinntyneBrown/react-ts-getting-started#readme",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.1",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.12"
   }
 }
