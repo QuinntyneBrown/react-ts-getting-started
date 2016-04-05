@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <TypeScriptCompile Include="main.tsx" />
     <TypeScriptCompile Include="wwwroot\app.tsx" />
   </ItemGroup>
   <ItemGroup>

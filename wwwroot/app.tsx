@@ -13,5 +13,5 @@ export class AppComponent extends React.Component<Props, State> {
     render () { return(<div><h1>App Component</h1></div >) }
 }
 
-ReactDOM.render(<AppComponent/>,document.getElementById('root'))
+
 
