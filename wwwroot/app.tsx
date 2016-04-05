@@ -9,9 +9,26 @@ interface State {
 
 }
 
-export class AppComponent extends React.Component<Props, State> {
-    render () { return(<div><h1>App Component</h1></div >) }
+class AppComponent extends React.Component<Props, State> {
+    constructor(props: Props) {
+        super(props);
+    }
+
+    onIncrement() {
+        alert("Increment");
+    }
+
+    render() {
+        return (
+            <div>
+                <h1>App Component</h1>
+                <a onClick={this.onIncrement}>+</a>
+            </div>
+        )
+    }
 }
+
+export default AppComponent;
 
 
 
