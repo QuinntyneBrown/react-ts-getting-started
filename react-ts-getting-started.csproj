@@ -64,6 +64,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dist\bundle.js" />
     <Content Include="gulpfile.js" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
@@ -83,9 +84,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="dist\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="wwwroot\app.tsx" />
   </ItemGroup>
