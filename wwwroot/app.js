@@ -1,4 +1,3 @@
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
@@ -10,9 +9,16 @@ var AppComponent = (function (_super) {
     function AppComponent(props) {
         _super.call(this, props);
     }
-    AppComponent.prototype.render = function () { return (React.createElement("div", null, React.createElement("h1", null, "App Component"))); };
+    AppComponent.prototype.getInitialState = function () {
+        alert("called?");
+    };
+    AppComponent.prototype.onIncrement = function () {
+        alert("Increment");
+    };
+    AppComponent.prototype.render = function () {
+        return (React.createElement("div", null, React.createElement("h1", null, "App Component"), React.createElement("a", {"onClick": this.onIncrement}, "+")));
+    };
     return AppComponent;
-}(React.Component));
+})(React.Component);
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = AppComponent;
-//# sourceMappingURL=app.js.map

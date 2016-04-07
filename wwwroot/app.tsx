@@ -2,7 +2,7 @@
 import * as ReactDOM from "react-dom";
 
 interface Props {
-
+    compliment?: string;
 }
 
 interface State {
@@ -14,6 +14,9 @@ class AppComponent extends React.Component<Props, State> {
         super(props);
     }
 
+    getInitialState() {
+        alert("called?");
+    }
     onIncrement() {
         alert("Increment");
     }
