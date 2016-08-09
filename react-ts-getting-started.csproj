@@ -64,11 +64,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dist\bundle.js" />
     <Content Include="gulpfile.js" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="typings.json" />
+    <Content Include="src\components\hero\hero.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -85,11 +85,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="dist\" />
     <Folder Include="docs\" />
+    <Folder Include="src\assets\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="main.tsx" />
-    <TypeScriptCompile Include="wwwroot\app.tsx" />
+    <TypeScriptCompile Include="src\components\app.tsx" />
+    <TypeScriptCompile Include="src\components\hero\hero.tsx" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
